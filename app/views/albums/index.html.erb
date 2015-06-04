@@ -1,3 +1,5 @@
-<% @albums.each do |poop| %>
-  <%= poop.name %>
-  <% end %>
+<% @albums.each do |album| %>
+  <ul class = 'Album_link'>
+    <li><%= album.name %></li>
+  </ul>
+<% end %>
